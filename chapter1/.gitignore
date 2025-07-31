@@ -1,0 +1,19 @@
+# Игнорируем кеш Python
+__pycache__/
+*.py[cod]
+
+# Игнорируем виртуальное окружение
+venv/
+
+# Игнорируем базу данных SQLite
+db.sqlite3
+
+# Логи
+*.log
+
+# Настройки среды
+.env
+
+# Системные файлы Windows / macOS
+.DS_Store
+Thumbs.db
