@@ -1,1 +1,8 @@
-{{question}}
+<form action="{% url 'polls:vote' question.id %}" method="post">
+    {% csrf_token %}
+    <fieldset>
+        <legend>
+            
+        </legend>
+    </fieldset>
+</form>
